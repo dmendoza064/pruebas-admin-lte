@@ -1,0 +1,126 @@
+/* header*/
+.navbar
+	{
+		margin-bottom: 0;
+	}
+.jumbotron
+{
+	background-image: url(/imagenes/fotos/mg.jpg);
+	
+	background-repeat: no-repeat;
+ /* background-position: center; */
+  background-attachment: contain;
+  background-size: 100%;
+  color: #ECF0F1;
+  margin-top:  20px;
+
+}
+.para-abajo
+{
+	margin-top: 100px;
+}
+.a-abajo
+{
+	margin-top: 30px;
+}
+.jumbotron1
+{
+	/*background-image: url(/imagenes/fotos/mg.jpg);
+	
+	background-repeat: no-repeat;
+ /* background-position: center; */
+  background-attachment: contain;
+  background-size: 100%;
+  color: #ECF0F1;
+  margin-top:  20px;
+}
+.jumbotron .row .text-center h1
+{
+	font-size: 2em;
+}
+.quitarFloat
+{
+	float: none;
+}
+
+/*Imagen*/
+.estiloImagen
+	{
+		max-width: 100%;
+	}
+
+/* estilo de letra*/
+.Montserrat
+{
+
+    font-family: 'Open Sans Condensed', sans-serif;
+color: #ECF0F1;
+    
+
+}
+.vete-arriba
+{
+	vertical-align: top;
+}
+.lamonada
+{
+font-family: 'Lemonada', cursive;
+}
+.grande
+{
+	font-size: 1em;
+}
+/*Main cuerpo*/
+.margen
+{
+	margin: 20px;
+	align-items: center;
+}
+.main
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.post
+{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+.post .post-title a
+{
+ color: #333;
+}
+.post .thumb
+{
+	margin-right: 10px;
+	width: 250px;
+}
+.post .thumb img
+{
+	width: 100%;
+}
+.portada
+{
+	background-color: red;
+	 align-items: center;
+	 border-color: red,
+	 margin-top:  20px;
+	width: 500px;
+}
+.portada .portada1
+{
+	background-color: blue;
+	width: 100%;
+	align-items: center;
+}
+/* media query */
+@media screen and (max-width: 768px) {
+	.post .thumb
+	{
+		width: 100%;
+		margin-bottom: 20px;
+		margin-left: 0;
+	}
+	
+}
